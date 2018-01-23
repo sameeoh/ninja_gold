@@ -1,0 +1,43 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+#wrapper{
+    width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    min-height: 600px;
+    background-image: url("/static/gold/images/background.jpg")
+}
+#header{
+    display: inline-block;
+}
+#header > p{
+    display: inline-block;
+    color: aliceblue;
+}
+#gold{
+    border: 1px solid black;
+    padding: 3px 10px 3px 3px;
+    display: inline-block;
+    color: aliceblue;
+}
+#buildings > div{
+    color: aliceblue;
+    background-color: black
+    opacity: 0.3;
+    display: inline-block;
+    margin: 15px;
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+}
+#activities{
+    height:300px;
+    width:600px;
+    overflow:auto;
+    background-color:rgb(74, 77, 214);
+    color:white;
+    padding:10px;
+}
